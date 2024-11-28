@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bfbb6338b9.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="portada">
+            <img src="./img/invicelu.png" alt="Imagen de portada" class="imgmovil"> 
+
+            <img src="./img/invipad.png" alt="" class="imgipad">
+
+            <img src="./img/inviweb.png" alt="" class="imgweb">
+
+            <div class="ola">
+                <img src="./img/olagris.png" alt="Imagen de ola">
+            </div>
+
+            <button id="playButton" class="rounded-pill">Play</button>
+        <audio id="myAudio">
+            <source src="./musica/Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video).mp3" type="audio/mpeg">
+            tu navegador no soporta el elemento de audio
+        </audio>
+        </div>
+        
+    </header>
+    
+    <div class="container mt-5">
+        <h1 class="title text-center mb-4 fs-md-5 fs-lg-3">¡Estás Invitado!</h1>
+        <p class="parrafo-principal text-justify fs-3 fs-md-5 fs-lg-3">
+            "Ésta noche es inolvidable para mi y sin tí no podría ser perfecta."
+        </p>
+    </div>
+
+
+
+    <div class="contador">
+        <div class="fecha">
+            <div class="circulo">
+                <div id="dias"></div>
+            </div>
+            <div class="etiquetas">DíAS</div>
+        </div>
+        <div class="fecha">
+            <div class="circulo">
+                <div id="horas">00</div>
+            </div>
+            <div class="etiquetas">HORAS</div>
+        </div>
+        <div class="fecha">
+            <div class="circulo">
+                <div id="minutos">00</div>
+            </div>
+            <div class="etiquetas">MINUTOS</div>
+        </div>
+        <div class="fecha">
+            <div class="circulo">
+                <div id="segundos">00</div>
+            </div>
+            <div class="etiquetas">SEGUNDOS</div>
+        </div>
+    </div>
+
+
+
+
+    <div class="code">
+        <div class="title">
+            <h2>Dress Code</h2>
+        </div>
+
+        <div>
+            <div class="image">
+                <img src="./img/suit.png" data-aos="fade-right" data-aos-duration="3000" alt="">
+                <img src="./img/dress.png" data-aos="fade-right" data-aos-duration="3000" alt="">
+            </div>
+
+            <p class="parrafo text-justify fs-6 fs-md-5 fs-lg-4 elegante">
+                ¡Elegante Sport!</p>
+        </div>
+
+    </div>
+
+    <div class="fotos">
+        <i class="fa-solid fa-camera" class="oculto grid-item" data-aos="fade-right" data-aos-duration="3000"></i>
+        <h2 class="portada-fotos">XV Alma</h2>
+       
+
+
+    </div>
+
+    <div class="mosaico">
+        <img src="./img/5.jpeg" alt="" class="oculto grid-item" data-aos="fade-right" data-aos-duration="3000">
+        <img src="./img/4.jpeg" alt="" class="oculto grid-item" data-aos="fade-right" data-aos-duration="2000">
+        <img src="./img/1.jpeg" alt="" class="ancho oculto grid-item" data-aos="fade-right" data-aos-duration="1000">
+    </div>
+
+    <div class="informacion">
+
+    <div class="gift">
+
+        <i class="fa-solid fa-gift" data-aos="fade-right" data-aos-duration="3000"></i>
+        <div class="secondtitle">
+            <h2>Regalos</h2>
+        </div>
+
+        <!--
+        <p class="parrafo text-justify fs-6 fs-md-5 fs-lg-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, iusto?
+        </p> -->
+
+       
+        <button type="button" class="btn btn-custom rounded-pill" data-bs-toggle="modal" data-bs-target="#miModal">
+            Ver mi Alias
+          </button>
+          
+          <!-- El Modal -->
+          <div class="modal fade" id="miModal" tabindex="-1" aria-labelledby="miModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <!-- Cabecera del modal -->
+                <div class="modal-header">
+                    <!--
+                  <h5 class="modal-title" id="miModalLabel">Gracias</h5>
+                  -->
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <!-- Cuerpo del modal -->
+                <div class="modal-body text-center">
+                    Tu compañía es mi mejor regalo, pero si querés dejarme un detalle, podés hacerlo en:  alma.mangione.26
+                </div>
+                <!-- Pie del modal -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+    </div>
+
+    <div class="ubicacion">
+        <i class="fa-solid fa-map-location-dot" data-aos="fade-right" data-aos-duration="3000"></i></i>
+        <div class="secondtitle">
+            <div class="secondtitle">
+                <h2>Ubicación</h2>
+            </div>
+        </div>
+        <p class="parrafo text-justify fs-6 fs-md-5 fs-lg-4">
+            "Dirección: C. 106, B1891 Ingeniero Juan Allan, Provincia de Buenos Aires"
+        </p>
+
+        <button type="button" class="btn btn-custom rounded-pill"><a
+            href="https://www.google.com/maps/place/Quinta+San+Valentin,+Calle+106,+Ingeniero+J.+Allan,+Provincia+de+Buenos+Aires/data=!4m2!3m1!1s0x95a2d7c71f92c231:0x6852baf0f5d32f5f?utm_source=mstt_1&entry=gps">Ver mapa</a></button>
+
+    </div>
+
+</div>
+
+    <div class="asistencia">
+        <i class="fa-solid fa-check" data-aos="fade-right" data-aos-duration="3000"></i>
+        <h2 class="asistencia-text">Confirmar asistencia</h2>
+        <button type="button" class="btn btn-custom-asistencia rounded-pill"><a href="https://wa.me/5491124012245" target="_blank">Confirmar acá</a></button>
+    </div>
+
+    <div class="final">
+        <h2 class="espero">
+            Te Espero
+        </h2>
+        <p class="espero-p">Alma</p>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2024 alexdevstudio.com Todos los derechos reservados.</p>
+    </footer>
+
+
+
+    <script src="main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
