@@ -409,6 +409,10 @@
             height: 100vh;
     }
 
+    .portada .imgmovil{
+        display: none;
+       }
+
         .ola {
             display: block;
         }
@@ -445,6 +449,10 @@
             height: auto;
             object-fit: cover;
             position: relative;
+           }
+
+           .portada .imgmovil{
+            display: none;
            }
 
            .ola {
