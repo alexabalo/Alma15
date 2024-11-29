@@ -68,6 +68,12 @@
         margin-bottom: 20px;
     }
 
+    .portada {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
     .portada .imgmovil{
         position: relative;
         width: 100vw;
@@ -120,6 +126,7 @@
 
     .ola img {
         width: 100%;
+        height: auto;
         /* Hace que la imagen de la ola ocupe el 100% del ancho de su contenedor */
         display: block;
     }
