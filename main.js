@@ -1,4 +1,4 @@
-let fechaObjetivo = new Date(new Date().getFullYear(), 11, 21, 0, 0, 0).getTime();
+let fechaObjetivo = new Date(new Date().getFullYear(), 11, 22, 0, 0, 0).getTime();
 
 function actualizarReloj() {
     let ahora = new Date().getTime(); 
